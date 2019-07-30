@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>Transparent</title>
+	<style>
+		body
+		{
+			background:url("back3.jpg") center no-repeat;
+			height:100vh;
+		}
+		.menudropdown1
+		{
+         width:80%;
+         height:100px;
+         margin:0px auto;
+		}
+		.menudropdown1 ul
+		{
+          padding:0px;
+		}
+		.menudropdown1 ul li
+		{
+			float:left;
+			background-color:black;
+			color:white;
+			width:200px;
+			height:50px;
+			line-height:50px;
+			font-size:25px;
+			text-align:center;
+			list-style:none;
+			opacity:0.6;
+		}
+		.menudropdown1 ul li ul
+		{
+			display:none;
+		}
+		.menudropdown1 ul li:hover>ul
+		{
+			display:block;
+		}
+		.menudropdown1 ul li:hover
+		{
+			background-color:#32CD32;
+			opacity:0.9;
+		}
+	</style>
+</head>
+<body>
+  <div class="menudropdown1">
+   <ul>
+   	<li>
+   		USA
+   		<ul>
+   			<li>NEW YORK</li>
+   		</ul>
+   	</li>
+   	<li>
+   	INDIA
+   	   		<ul>
+   			<li>PUNE</li>
+   			<li>MUMBAI</li>
+   			<li>DELHI
+   				<ul>
+   					<li>QUTUB MINAR</li>
+   				</ul>
+   			</li>
+   			<li>BANGLORE</li>
+   			<li>DEHRADUN</li>
+   		</ul>
+   </li>
+   	<li>
+   	FRANCE
+   		<ul>
+   			<li>NEW YORK</li>
+   		</ul>
+   </li>
+   	<li>
+   		AUSTRALIA
+   		   		<ul>
+   			<li>NEW YORK</li>
+   		</ul>
+   	</li>
+   	<li>
+   	BRAZIL
+   	   		<ul>
+   			<li>NEW YORK</li>
+   		</ul>
+   </li>
+   </ul>
+  </div>
+</body>
+</html>
